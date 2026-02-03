@@ -1,23 +1,19 @@
-# WeatherApp
+# SkyCast
 
-A modern weather information app built with React and Vite.
+SkyCast is a sleek and simple React app that lets you check real-time weather updates for any city using the OpenWeatherMap API.
 
 ## Features
 
-- **Search for any city:** Enter a city name to get real-time weather data using the OpenWeatherMap API.
-- **Live weather details:** Displays temperature, humidity, min/max temperature, weather description, and 'feels like' temperature.
-- **Dynamic icons and images:** Weather icons and background images change based on the weather conditions.
-- **Material UI design:** Uses Material UI components for a clean, responsive interface.
-
-## Screenshots
-
-![App Screenshot](public/vite.svg)
+- Search for any city and get live weather details
+- Shows temperature, humidity, min/max temperature, weather description, and 'feels like' temperature
+- Dynamic weather icons and backgrounds
+- Clean, responsive Material UI design
 
 ## Getting Started
 
 ### Prerequisites
 
-- Node.js and npm installed
+- Node.js and npm
 - OpenWeatherMap API key
 
 ### Installation
@@ -25,7 +21,7 @@ A modern weather information app built with React and Vite.
 1. Clone the repository:
    ```bash
    git clone <repo-url>
-   cd WeatherApp
+   cd SkyCast
    ```
 2. Install dependencies:
    ```bash
@@ -33,16 +29,12 @@ A modern weather information app built with React and Vite.
    ```
 3. Set up your API key:
    - Create a `.env` file in the root directory.
+   - Add:
+     ```
+     VITE_WEATHER_API_KEY=your_api_key_here
+     ```
 
-   # WeatherApp
-
-   Simple React app to check weather for any city using OpenWeatherMap API.
-
-   ## How to Run
-   1. Install dependencies: `npm install`
-   2. Add your API key in `.env` as `VITE_WEATHER_API_KEY=your_api_key_here`
-   3. Start: `npm run dev`
-
-   ## Features
-   - Search city and view weather info
-   - Uses Material UI for design
+4. Start the app:
+   ```bash
+   npm run dev
+   ```
