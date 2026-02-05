@@ -38,3 +38,6 @@ SkyCast is a sleek and simple React app that lets you check real-time weather up
    ```bash
    npm run dev
    ```
+## License
+
+This project is for academic/demo purposes.
